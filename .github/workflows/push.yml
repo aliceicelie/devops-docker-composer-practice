@@ -23,6 +23,6 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
       run: |
         make ci
-        make build
         docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+        make build
         make push
