@@ -3,4 +3,4 @@
 
 [![Build and Push](https://github.com/aliceicelie/devops-for-programmers-project-74/actions/workflows/push.yml/badge.svg)](https://github.com/ваш-юзернейм/aliceicelie-devops-for-programmers-project-74/actions/workflows/push.yml)
 
-[![Docker Hub](https://github.com/aliceicelie/devops-for-programmers-project-74/actions/workflows/push.yml/badge.svg)](https://hub.docker.com/repository/docker/aliceicelie/devops-for-programmers-project-74/general)
+[Docker Hub](https://hub.docker.com/repository/docker/aliceicelie/devops-for-programmers-project-74/general)
