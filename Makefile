@@ -7,4 +7,4 @@ push:
 run:
 	docker run -p 8080:8080 aliceicelie/devops-for-programmers-project-74 npm run dev
 ci:
-	docker-compose -f docker-compose.test.yml up --abort-on-container-exit
+	docker-compose -f docker-compose.yml up --abort-on-container-exit
