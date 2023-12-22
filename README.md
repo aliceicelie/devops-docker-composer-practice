@@ -8,11 +8,20 @@
 [Docker Hub](https://hub.docker.com/repository/docker/aliceicelie/devops-for-programmers-project-74/general)
 
 ## Requirements
+- git
 - docker
 
 ## How to up app with docker locally
-- ```git clone git@github.com:aliceicelie/devops-docker-composer-practice.git``` 
-- ```make install```
-- ```make prepare-env```
-- ```make dev```
+- ```bash
+  git clone git@github.com:aliceicelie/devops-docker-composer-practice.git
+  ``` 
+- ```bash
+  make install
+  ```
+- ```bash
+  make prepare-env
+  ```
+- ```bash
+  make dev
+  ```
 - go to *http://0.0.0.0:8080*
