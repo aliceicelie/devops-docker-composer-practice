@@ -1,13 +1,7 @@
 name: ci
 on: push
 jobs:
-  prepare-env:
-    runs-on: ubuntu-latest
-    steps:
-          - uses: actions/checkout@v2
-          - run: make prepare-env
   test:
-    needs: prepare-env
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
